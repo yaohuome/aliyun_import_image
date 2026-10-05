@@ -1,0 +1,32 @@
+{
+  "Version": "1",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ecs:ImportImage",
+        "ecs:DescribeImages",
+        "ecs:DescribeTasks",
+        "ecs:CancelTask"
+      ],
+      "Resource": ["*"]
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "oss:ListBuckets",
+        "oss:GetBucketInfo",
+        "oss:PutBucket",
+        "oss:DeleteBucket",
+        "oss:ListObjects",
+        "oss:GetObject",
+        "oss:PutObject",
+        "oss:DeleteObject",
+        "oss:AbortMultipartUpload",
+        "oss:ListParts",
+        "oss:ListMultipartUploads"
+      ],
+      "Resource": ["*"]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+oss2
+alibabacloud_ecs20140526
+alibabacloud_tea_openapi
+alibabacloud_tea_util
+python-dotenv
